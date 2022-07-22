@@ -200,7 +200,7 @@ main #subclass{
 }
 
 
-@media (max-width: 770px) {
+@media (max-width: 769px) {
 
     .header{
         width: 700px;
