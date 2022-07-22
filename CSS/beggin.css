@@ -126,6 +126,71 @@ main #bhome {
 }
 
 
+
+@media (max-width: 768px) {
+     
+    .header{
+        width: 700px;
+    }
+
+    .classy h1{
+        font-size: 40px;
+        margin: 40px 70px 20px 70px;
+        
+    }
+
+    .classy #begginer {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 70px;
+        padding: 0px 30px;
+    }
+
+    .classy #bhome {
+        width: 300px;
+        position: relative;
+        left: 420px;
+        bottom: 260px;
+    }
+
+    .finance{
+        padding-left: 90px;
+        height: 2550px;
+     }
+
+     .finance iframe{
+        float: none;
+        margin-bottom: 10px;
+     }
+
+     .finance h2{
+        font-size: 30px;
+        padding: 0px 15px 15px 10px;
+    }
+
+    .finance p{
+        font-size: 25px;
+        line-height: 25px;
+        width: 530px;
+        padding: 0px 30px 30px 10px;
+        text-align:start;
+    }
+
+    .finance #line{
+        width: 270px;
+    }
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}
+
+
+
 @media (max-width: 480px) {
     
     *{
@@ -187,68 +252,6 @@ main #bhome {
         width: 300px;
         padding: 0px 40px 20px 10px;
         
-    }
-
-    .finance #line{
-        width: 270px;
-    }
-
-    .footer button {
-        width: 140px;
-        height: 30px;
-        margin-top: 10px;
-        padding-top: 5px;
-    }
-
-}
-
-@media (max-width: 769px) {
-     
-    .header{
-        width: 700px;
-    }
-
-    .classy h1{
-        font-size: 40px;
-        margin: 40px 70px 20px 70px;
-        
-    }
-
-    .classy #begginer {
-        font-size: 15px;
-        margin-left: 40px;
-        margin-right: 70px;
-        padding: 0px 30px;
-    }
-
-    .classy #bhome {
-        width: 300px;
-        position: relative;
-        left: 420px;
-        bottom: 260px;
-    }
-
-    .finance{
-        padding-left: 90px;
-        height: 2550px;
-     }
-
-     .finance iframe{
-        float: none;
-        margin-bottom: 10px;
-     }
-
-     .finance h2{
-        font-size: 30px;
-        padding: 0px 15px 15px 10px;
-    }
-
-    .finance p{
-        font-size: 25px;
-        line-height: 25px;
-        width: 530px;
-        padding: 0px 30px 30px 10px;
-        text-align:start;
     }
 
     .finance #line{

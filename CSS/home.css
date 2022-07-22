@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 103px 26px 80px;
+    padding: 20px 105px 26px 80px;
     background: #419488;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
@@ -73,7 +73,7 @@ main button a{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     margin-top: -320px;
-    padding: 60px 60px 60px 100px;
+    padding: 60px 120px 60px 60px;
     text-align: center;
     
 
@@ -135,7 +135,7 @@ main button a{
 .m-icons div{
     width: 50%;
     height: 100px;
-    padding: 10px 0px 30px 120px;
+    padding: 10px 10px 30px 90px;
     line-height: 24px;
     
 }
@@ -155,7 +155,7 @@ main button a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
-    padding: 0px 60px 60px 120px;
+    padding: 0px 60px 60px 90px;
     text-align:justify
 
 }
@@ -174,7 +174,7 @@ main button a{
     border-radius: 62px;
     margin-top: 100px;
     position: relative;
-    left: 400px;
+    left: 380px;
     cursor: pointer;
     
 
@@ -184,7 +184,7 @@ main button a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 103px 26px 80px;
+    padding: 20px 105px 26px 60px;
     background: #419488;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 
@@ -201,7 +201,7 @@ main button a{
 
 .footer button{
     border: 1px solid white;
-    width: 280px;
+    width: 260px;
     height: 50px;
     border-radius: 62px;
     background:#419488;
@@ -210,6 +210,131 @@ main button a{
     cursor: pointer; 
 }
 
+
+
+@media (max-width: 768px) {
+
+    .homin{
+        height: 700px;
+    }
+    
+    .homin h1{
+        font-size: 40px;
+        padding-right: 80px;
+    }
+
+    .homin #prime {
+        font-size: 20px;
+        align-items: flex-start;
+        }
+
+    .homin #btn1 {
+        width: 200px;
+        height: 30px; 
+    }
+
+    .homin #btn1 a {
+        font-size: 20px;
+    }
+
+    .homin #banner1 {
+        width: 270px;
+        position: relative;
+        left: 430px;
+        bottom: 300px;
+     }
+
+     .midpage{
+        padding-left: 40px;
+        padding-right: 20px;
+     }
+
+     .midpage img {
+        height: 200px;
+     }
+
+     .midpage article h3 {
+        font-size: 25px;
+     }
+
+     .midpage article span {
+        font-size: 13px;
+        text-align:start;
+     }
+
+     .midpage article button {
+        width: 130px;
+        height: 25px; 
+    }
+
+    
+    .midpage article button a {
+        font-size: 15px;
+    }
+
+    .m-icons{
+        height: 650px;
+        align-items: center;
+    }
+
+    .m-icons img {
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    .m-icons div{
+        width: 300px;
+        height: 350px;
+        line-height: 17px;
+        font-size: 20px;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    .btmpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F7F7F7;
+        width: 100%;
+        padding: 3px 5px 0px 40px;
+    }
+
+    .btmpage h5 {
+        font-size: 25px;
+    }
+
+    .btmpage p{
+        margin-bottom: 20px;
+    }
+
+
+    .btmpage button{
+        display: flex;
+        position: relative;
+        left: 2px;
+        width: 170px;
+        height: 35px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    
+    }
+
+    .btmpage button a {
+        font-size: 20px;
+
+    }
+
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+
+}
 
 
 
@@ -360,134 +485,3 @@ main button a{
 
 }
    
-
-
-
-
-@media (max-width: 769px) {
-
-    .homin{
-        height: 700px;
-    }
-    
-    .homin h1{
-        font-size: 40px;
-        padding-right: 80px;
-    }
-
-    .homin #prime {
-        font-size: 20px;
-        align-items: flex-start;
-        }
-
-    .homin #btn1 {
-        width: 200px;
-        height: 30px; 
-    }
-
-    .homin #btn1 a {
-        font-size: 20px;
-    }
-
-    .homin #banner1 {
-        width: 270px;
-        position: relative;
-        left: 430px;
-        bottom: 300px;
-     }
-
-     .midpage{
-        padding-left: 40px;
-        padding-right: 20px;
-     }
-
-     .midpage img {
-        height: 200px;
-     }
-
-     .midpage article h3 {
-        font-size: 25px;
-     }
-
-     .midpage article span {
-        font-size: 13px;
-        text-align:start;
-     }
-
-     .midpage article button {
-        width: 130px;
-        height: 25px; 
-    }
-
-    
-    .midpage article button a {
-        font-size: 15px;
-    }
-
-    .m-icons{
-        height: 650px;
-        align-items: center;
-    }
-
-    .m-icons img {
-        float: none;
-        width: 100px;
-        height: 100px;
-    }
-
-    .m-icons div{
-        width: 300px;
-        height: 350px;
-        line-height: 17px;
-        font-size: 20px;
-        align-items: center;
-        padding-left: 100px;
-    }
-
-    .btmpage{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #F7F7F7;
-        width: 100%;
-        padding: 3px 5px 0px 40px;
-    }
-
-    .btmpage h5 {
-        font-size: 25px;
-    }
-
-    .btmpage p{
-        margin-bottom: 20px;
-    }
-
-
-    .btmpage button{
-        display: flex;
-        position: relative;
-        left: 2px;
-        width: 170px;
-        height: 35px;
-        margin-bottom: 60px;
-        margin-top: 60px;
-    
-    }
-
-    .btmpage button a {
-        font-size: 20px;
-
-    }
-
-
-    .footer button{
-        width: 160px;
-        height: 30px;
-        margin-top: 10px;
-    }
-
-
-}
-
-
-    
-    

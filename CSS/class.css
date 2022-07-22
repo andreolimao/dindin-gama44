@@ -130,6 +130,62 @@ main #subclass{
     
 }
 
+
+
+@media (max-width: 768px) {
+
+    .header{
+        width: 700px;
+    }
+
+
+    .allpage{
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+
+    .allpage img{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .allpage h2{
+        font-size: 30px;
+    }
+
+    .allpage p{
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .allpage button{
+        width: 140px;
+        height: 20px;
+        position: relative;
+        left: 280px;
+        bottom: 40px;
+    }
+
+    .allpage button a{
+        font-size: 15px;
+    }
+
+    .allpage #line{
+        width: 650px;
+        height: 2px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}
+
+
+
 @media (max-width: 480px) {
 
     *{
@@ -195,59 +251,6 @@ main #subclass{
         height: 30px;
         margin-top: 10px;
         padding-top: 5px;
-    }
-
-}
-
-
-@media (max-width: 769px) {
-
-    .header{
-        width: 700px;
-    }
-
-
-    .allpage{
-        padding-right: 20px;
-        padding-left: 50px;
-    }
-
-    .allpage img{
-        width: 250px;
-        height: 250px;
-        margin-bottom: 20px;
-    }
-
-    .allpage h2{
-        font-size: 30px;
-    }
-
-    .allpage p{
-        font-size: 15px;
-        padding-right: 20px;
-    }
-
-    .allpage button{
-        width: 140px;
-        height: 20px;
-        position: relative;
-        left: 280px;
-        bottom: 40px;
-    }
-
-    .allpage button a{
-        font-size: 15px;
-    }
-
-    .allpage #line{
-        width: 650px;
-        height: 2px;
-    }
-
-    .footer button{
-        width: 160px;
-        height: 30px;
-        margin-top: 10px;
     }
 
 }

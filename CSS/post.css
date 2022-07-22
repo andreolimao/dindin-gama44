@@ -47,7 +47,8 @@ header .nav li a{
 }
 
 .primepost img {
-   padding: 70px 0px 30px 100px;
+   padding: 70px 10px 30px 90px;
+   margin-left: 60px;
 }
 
 
@@ -55,6 +56,7 @@ header .nav li a{
     font-size: 17.5px;
     line-height: 29px;
     padding: 0px 0px 40px 100px;
+    margin-left: 50px;
     
 }
 
@@ -63,6 +65,7 @@ header .nav li a{
     font-size: 20px;
     color: #419488;
     padding-left: 100px;
+    margin-left: 50px;
 }
 
 
@@ -157,6 +160,78 @@ header .nav li a{
     
 }
 
+
+@media (max-width: 768px) {
+    
+    .header{
+        width: 700px;
+    }
+
+    .primepost h1{
+        font-size: 40px;
+    }
+
+    .primepost span{
+        font-size: 20px;
+        padding-left: 300px;
+    }
+
+    .primepost img{
+        width: 670px;
+        height: 400px;
+    }
+
+    .primepost h3{
+        font-size: 20px;
+        padding-right: 23px;
+    }
+
+    .primepost p{
+        font-size: 18px;
+        line-height: 20px;
+        text-align: justify;
+        padding-right: 95px;
+    }
+
+    .postit h2{
+        font-size: 35px;
+    }
+
+    .btmpost{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btmpost h3{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .btmpost article span{
+        font-size: 18px;
+    }
+
+    .btmpost article button{
+        width: 180px;
+        height: 40px; 
+        margin-bottom: 80px;
+    }
+
+    .btmpost article button a{
+        font-size: 18px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+ 
+}
+
+
 @media (max-width:480px) {
     
     *{
@@ -247,72 +322,3 @@ header .nav li a{
 }
 
 
-@media (max-width: 769px) {
-    
-    .header{
-        width: 700px;
-    }
-
-    .primepost h1{
-        font-size: 40px;
-    }
-
-    .primepost span{
-        font-size: 20px;
-        padding-left: 300px;
-    }
-
-    .primepost img{
-        width: 670px;
-        height: 400px;
-    }
-
-    .primepost h3{
-        font-size: 20px;
-        padding-right: 23px;
-    }
-
-    .primepost p{
-        font-size: 18px;
-        line-height: 20px;
-        text-align: justify;
-        padding-right: 95px;
-    }
-
-    .postit h2{
-        font-size: 35px;
-    }
-
-    .btmpost{
-        padding-left: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .btmpost h3{
-        font-size: 25px;
-        margin-top: 5px;
-    }
-
-    .btmpost article span{
-        font-size: 18px;
-    }
-
-    .btmpost article button{
-        width: 180px;
-        height: 40px; 
-        margin-bottom: 80px;
-    }
-
-    .btmpost article button a{
-        font-size: 18px;
-    }
-
-    .footer button{
-        width: 160px;
-        height: 30px;
-        margin-top: 10px;
-    }
-
- 
-}

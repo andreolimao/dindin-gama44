@@ -63,7 +63,8 @@ main #bprime{
 
 .princ6 article{
     width: 550px;
-    padding: 70px 0px 70px 80px;
+    padding: 70px 10px 70px 90px;
+    margin-left: 35px;
 }
 
 .princ6 h3{
@@ -115,6 +116,65 @@ main #bprime{
     cursor: pointer;
     
 }
+
+
+@media (max-width: 769px) {
+
+    .header{
+        width: 80%;
+    }
+
+    .blogs h1{
+        font-size: 40px;
+        padding-right: 70px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .blogs #bprime{
+        font-size: 20px;
+        margin-left: 60px;
+        padding-right: 60px;
+        width: 500px;
+    }
+
+    .blogs #bannerb{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 480px;
+        bottom: 230px;
+    }
+
+    .princ6 article{
+        padding-left: 60px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .princ6 article img{
+        width: 250px;
+    }
+
+    .princ6 h3 {
+        font-size: 16px;
+        width: 250px;   
+    }
+
+    .princ6 p{
+        width: 230px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}
+
 
 
 @media (max-width: 480px) {
@@ -186,59 +246,3 @@ main #bprime{
 }
 
 
-@media (max-width: 769px) {
-
-    .header{
-        width: 80%;
-    }
-
-    .blogs h1{
-        font-size: 40px;
-        padding-right: 70px;
-        margin-top: 40px;
-        margin-left: 60px;
-    }
-
-    .blogs #bprime{
-        font-size: 20px;
-        margin-left: 60px;
-        padding-right: 60px;
-        width: 500px;
-    }
-
-    .blogs #bannerb{
-        width: 250px;
-        height: 250px;
-        position: relative;
-        left: 480px;
-        bottom: 230px;
-    }
-
-    .princ6 article{
-        padding-left: 60px;
-        margin-top: 10px;
-        margin-bottom: -15px;
-    }
-
-    .princ6 article img{
-        width: 250px;
-    }
-
-    .princ6 h3 {
-        font-size: 16px;
-        width: 250px;   
-    }
-
-    .princ6 p{
-        width: 230px;
-        font-size: 14px;
-        line-height: 16px;
-    }
-
-    .footer button{
-        width: 160px;
-        height: 30px;
-        margin-top: 10px;
-    }
-
-}

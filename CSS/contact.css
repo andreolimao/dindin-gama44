@@ -131,6 +131,60 @@ main img {
 
 
 
+@media (max-width: 768px) {
+
+    .header{
+        width: 900px;
+    }
+
+    .call{
+        position: relative;
+        right: 40px;
+        bottom: 10px;
+        height: 800px;
+    }
+
+    .call h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .call form input{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .call form textarea{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .call button{
+        width: 140px;
+        height: 35px; 
+        margin-bottom: 50px;
+    }
+
+    .call button a{
+        font-size: 25px;
+    }
+
+    main #lastone{
+        width: 270px;
+        position:relative;
+        left: 470px;
+        bottom: 430px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}
+
+
 
 @media (max-width:480px) {
     
@@ -182,61 +236,6 @@ main img {
         position:relative;
         left: 115px;
         bottom: 60px;
-    }
-
-    .footer button{
-        width: 160px;
-        height: 30px;
-        margin-top: 10px;
-    }
-
-}
-
-
-
-@media (max-width: 769px) {
-
-    .header{
-        width: 900px;
-    }
-
-    .call{
-        position: relative;
-        right: 40px;
-        bottom: 10px;
-        height: 800px;
-    }
-
-    .call h2{
-        font-size: 40px;
-        padding-bottom: 30px;
-    }
-
-    .call form input{
-        width: 320px;
-        font-size: 18px;
-    }
-
-    .call form textarea{
-        width: 320px;
-        font-size: 18px;
-    }
-
-    .call button{
-        width: 140px;
-        height: 35px; 
-        margin-bottom: 50px;
-    }
-
-    .call button a{
-        font-size: 25px;
-    }
-
-    main #lastone{
-        width: 270px;
-        position:relative;
-        left: 470px;
-        bottom: 430px;
     }
 
     .footer button{
