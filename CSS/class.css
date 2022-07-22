@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+header .nav li a{
+    padding: 0px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main h1{
+    display: flex;
+    color: #FF4081;
+    font-size: 60px;
+    margin: 60px 5px 5px 120px;
+}
+
+main #subclass{
+    display:flex;
+    font-size: 27px;
+    color: #555555;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+
+.allpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 120px;
+}
+
+
+.allpage img{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+
+
+
+.allpage h2{
+    font-size: 35px;
+    color: #FF4081;
+    padding: 20px 0px 30px 30px;
+}
+
+
+.allpage p{
+    font-size: 15px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+
+.allpage #line{
+   width: 1000px;
+
+}
+
+
+.allpage button{
+    border:#419488 1px solid ;
+    width: 230px;
+    height: 50px;
+    border-radius: 62px;
+    background-color: #419488; 
+    cursor: pointer;  
+}
+
+
+.allpage button a{
+    font-size: 20px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer span{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer button{
+    border: 1px solid white;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    background:#419488;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 480px) {
+
+    *{
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;    
+    }
+
+
+    .header {
+        padding-left: 5px;
+    }
+
+    .ctop h1{
+        font-size: 45px;
+        padding-right: 130px;
+    }
+
+    .ctop #subclass{
+        font-size: 35px;
+        padding-right: 120px;
+    }
+
+    .allpage{
+        padding-left: 45px;
+        padding-right: 30px;
+    }
+
+
+    .allpage img{
+        float: none;
+        width: 270px;
+        margin-bottom: 20px;
+    }
+
+    .allpage h2{
+        font-size: 20px;
+        padding: 5px 20px 10px 5px;
+    }
+
+    .allpage p{
+        font-size: 15px;
+        padding: 0px 30px 15px 5px;
+        width: 280px;
+    }
+
+    .allpage button{
+        width: 140px;
+        height: 20px; 
+        margin-bottom: 30px;
+    }
+
+    .allpage button a{
+        font-size: 15px;
+    }
+
+    .allpage #line{
+        width: 300px;
+    }
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+
+    .header{
+        width: 700px;
+    }
+
+
+    .allpage{
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+
+    .allpage img{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .allpage h2{
+        font-size: 30px;
+    }
+
+    .allpage p{
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .allpage button{
+        width: 140px;
+        height: 20px;
+        position: relative;
+        left: 280px;
+        bottom: 40px;
+    }
+
+    .allpage button a{
+        font-size: 15px;
+    }
+
+    .allpage #line{
+        width: 650px;
+        height: 2px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}

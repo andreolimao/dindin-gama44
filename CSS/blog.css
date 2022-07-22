@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+header .nav li a{
+    padding: 0px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main h1{
+    display: flex;
+    color:#419488;
+    font-size: 45px;
+    margin: 120px 5px 20px 120px;
+}
+
+main #bprime{
+    display:flex;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+
+#bannerb{
+    display: flex;
+    position: relative;
+    left: 700px;
+    bottom: 280px;
+}
+
+
+.princ6 {
+    display: flex;
+    background: #E5E5E5;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: -200px;
+
+}
+
+.princ6 article{
+    width: 550px;
+    padding: 70px 0px 70px 80px;
+}
+
+.princ6 h3{
+    font-size: 25px;
+    color: #FF4081;
+    padding: 10px 0px;
+}
+
+
+.princ6 h3 a {
+    text-decoration: none;
+    color:#FF4081;
+    cursor: pointer;
+
+}
+
+.princ6 p{
+    font-size: 15px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer span{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer button{
+    border: 1px solid white;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    background:#419488;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+@media (max-width: 480px) {
+
+    *{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        padding-left: 5px;
+    }
+
+    .blogs{
+        height: 780px;
+    }
+
+    .blogs h1{
+        font-size: 35px;
+        padding-right: 70px;
+        margin-top: 40px;
+        margin-left: 75px;
+    }
+
+    .blogs #bprime{
+        font-size: 15px;
+        margin-left: 70px;
+        padding-right: 60px;
+        width: 280px;
+    }
+
+    .blogs #bannerb{
+        width: 280px;
+        height: 280px;
+        position: relative;
+        top: 25px;
+        left: 30px;
+    }
+
+    .princ6 article{
+       position: relative;
+       right: 125px;
+       padding-bottom: 20px;
+       padding-top: 30px;
+    }
+
+    .princ6 article img{
+        width: 250px;
+    }
+
+    .princ6 h3 {
+        font-size: 16px;
+        width: 250px;   
+    }
+
+    .princ6 p{
+        width: 230px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+
+    .header{
+        width: 80%;
+    }
+
+    .blogs h1{
+        font-size: 40px;
+        padding-right: 70px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .blogs #bprime{
+        font-size: 20px;
+        margin-left: 60px;
+        padding-right: 60px;
+        width: 500px;
+    }
+
+    .blogs #bannerb{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 480px;
+        bottom: 230px;
+    }
+
+    .princ6 article{
+        padding-left: 60px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .princ6 article img{
+        width: 250px;
+    }
+
+    .princ6 h3 {
+        font-size: 16px;
+        width: 250px;   
+    }
+
+    .princ6 p{
+        width: 230px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}

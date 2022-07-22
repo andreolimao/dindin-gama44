@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+header .nav li a{
+    padding: 0px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.call h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FF4081;
+    padding: 100px 0px 30px 0px;
+
+}
+
+
+.call form {
+    padding-left: 120px;
+
+}
+
+
+.call input {
+    width: 490px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #686868;
+    margin-bottom: 15px;
+    padding-left: 10px;
+
+
+}
+
+
+form textarea {
+    width: 490px;
+    height: 190px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #686868;
+    padding-left: 10px;
+    color: #686868;
+
+}
+
+
+form button {
+    margin-top: 10px;
+    cursor: pointer;
+    background: #FF4081;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 105px;
+    height: 32px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+
+main img {
+    position: relative;
+    left: 650px;
+    bottom: 440px;
+    margin-bottom: -300px;
+
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    
+
+}
+
+.footer span{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer button{
+    border: 1px solid white;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    background:#419488;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+
+@media (max-width:480px) {
+    
+    *{
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;    
+    }
+
+    .header {
+        padding: 10px;
+        width: 500px;
+    }
+
+    .call{
+        position: relative;
+        right: 60px;
+        bottom: 40px;
+        height: 800px;
+    }
+
+    .call h2{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .call form input{
+        width: 270px;
+        font-size: 15px;
+    }
+
+    .call form textarea{
+        width: 270px;
+        font-size: 15px;
+    }
+
+    .call button{
+        width: 115px;
+        height: 25px; 
+        margin-bottom: 50px;
+    }
+
+    .call button a{
+        font-size: 20px;
+    }
+
+    main #lastone{
+        width: 270px;
+        position:relative;
+        left: 115px;
+        bottom: 60px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    .header{
+        width: 900px;
+    }
+
+    .call{
+        position: relative;
+        right: 40px;
+        bottom: 10px;
+        height: 800px;
+    }
+
+    .call h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .call form input{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .call form textarea{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .call button{
+        width: 140px;
+        height: 35px; 
+        margin-bottom: 50px;
+    }
+
+    .call button a{
+        font-size: 25px;
+    }
+
+    main #lastone{
+        width: 270px;
+        position:relative;
+        left: 470px;
+        bottom: 430px;
+    }
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+}

@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+
+header .nav li a{
+    padding: 0px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main h1{
+    display: flex;
+    color: #FF4081;
+    font-size: 60px;
+    margin: 90px 5px 20px 120px;
+}
+
+
+main #begginer {
+    display:flex;
+    font-size: 20px;
+    color: #555555;
+    margin-left: 120px;
+}
+
+
+main #bhome {
+    display: flex;
+    position: relative;
+    left: 700px;
+    bottom: 350px;
+    margin-bottom: -240px;
+}
+
+
+.finance {
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 120px;
+  
+}
+
+
+.finance iframe{
+    float: left;
+    margin: 60px 40px 60px 10px;
+} 
+
+
+ 
+.finance h2{
+    font-size: 35px;
+    color: #FF4081;
+    padding: 85px 0px 30px 40px;
+}
+
+
+.finance p{
+    font-size: 18px;
+    line-height: 23px;
+    padding-right: 40px;
+}
+
+.finance #line{
+    width: 1000px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    margin-top: -120px;
+
+}
+
+.footer span{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer button{
+    border: 1px solid white;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    background:#419488;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+@media (max-width: 480px) {
+    
+    *{
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;    
+    }
+    
+    .header {
+        padding-left: 5px;
+    }
+
+    .classy{
+        height: 700px;
+    }
+
+    .classy h1{
+        font-size: 35px;
+        margin: 40px 70px 20px 50px;
+        
+    }
+
+    .classy #begginer {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 70px;
+        padding: 0px 30px;
+    }
+
+    .classy #bhome {
+        width: 300px;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+
+    .finance{
+       height: 1700px;
+       padding-left: 30px;
+       padding-right: 20px;
+    }
+
+    .finance iframe{
+        width: 250px;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .finance h2{
+        font-size: 25px;
+        padding: 5px 15px 15px 10px;
+    }
+
+    .finance p{
+        font-size: 15px;
+        line-height: 16px;
+        width: 300px;
+        padding: 0px 40px 20px 10px;
+        
+    }
+
+    .finance #line{
+        width: 270px;
+    }
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}
+
+@media (max-width: 770px) {
+     
+    .header{
+        width: 700px;
+    }
+
+    .classy h1{
+        font-size: 40px;
+        margin: 40px 70px 20px 70px;
+        
+    }
+
+    .classy #begginer {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 70px;
+        padding: 0px 30px;
+    }
+
+    .classy #bhome {
+        width: 300px;
+        position: relative;
+        left: 420px;
+        bottom: 260px;
+    }
+
+    .finance{
+        padding-left: 90px;
+        height: 2550px;
+     }
+
+     .finance iframe{
+        float: none;
+        margin-bottom: 10px;
+     }
+
+     .finance h2{
+        font-size: 30px;
+        padding: 0px 15px 15px 10px;
+    }
+
+    .finance p{
+        font-size: 25px;
+        line-height: 25px;
+        width: 530px;
+        padding: 0px 30px 30px 10px;
+        text-align:start;
+    }
+
+    .finance #line{
+        width: 270px;
+    }
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}

@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu' , 'san-serif';
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+header .nav li a{
+    padding: 0px 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main h1{
+    display: flex;
+    color: #FF4081;
+    font-size: 60px;
+    margin: 60px 5px 20px 120px;
+}
+
+main #prime{
+    display:flex;
+    font-size: 27px;
+    color: #555555;
+    margin-left: 120px;
+}
+
+main #btn1 {
+    border: 1px solid #FF4081;
+    width: 250px;
+    height: 50px;
+    border-radius: 70px;
+    background-color: white;
+    margin: 30px 5px 20px 120px;
+}
+
+main button a{
+    text-decoration: none;
+    color: #FF4081;
+    font-size: 27px;
+}
+
+#banner1 {
+    display: flex;
+    position: relative;
+    left: 630px;
+    bottom: 385px;
+
+}
+
+.midpage {
+    background: #F7F7F7;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin-top: -320px;
+    padding: 60px 60px 60px 100px;
+    text-align: center;
+    
+
+}
+
+
+.midpage article h3 {
+    font-size: 25px;
+    color: #FF4081;
+    margin: 20px 0px;
+  
+}
+
+.midpage article span {
+    font-size: 17px;
+    color: #555555;
+    
+
+}
+
+.midpage article button{
+    border: 1px solid #FF4081;
+    width: 230px;
+    height: 50px;
+    border-radius: 62px;
+    background-color:#FF4081;
+    margin: 20px 0px;
+    cursor: pointer;
+    
+
+}
+
+.midpage article button a {
+    color: #F7F7F7;
+    font-size: 20px;
+
+}
+
+.about h3{
+    font-size: 37px;
+    padding: 80px 0px 60px 120px;
+    color: #419488;
+}
+
+.m-icons{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+}
+
+.m-icons img{
+    float: left;
+    margin-right: 10px;
+}
+
+.m-icons div{
+    width: 50%;
+    height: 100px;
+    padding: 10px 0px 30px 120px;
+    line-height: 24px;
+    
+}
+
+
+.btmtittle h3{
+    background: #F7F7F7;
+    font-size: 37px;
+    padding: 80px 0px 60px 120px;
+    color: #419488;
+
+}
+
+.btmpage{
+    background: #F7F7F7;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    padding: 0px 60px 60px 120px;
+    text-align:justify
+
+}
+
+
+.btmpage h5{
+    font-size: 27px;
+    color: #419488;
+    
+}
+
+.btmpage button{
+    border: 1px solid #FF4081;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    margin-top: 100px;
+    position: relative;
+    left: 400px;
+    cursor: pointer;
+    
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 103px 26px 80px;
+    background: #419488;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.footer span{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer button{
+    border: 1px solid white;
+    width: 280px;
+    height: 50px;
+    border-radius: 62px;
+    background:#419488;
+    color: white;
+    margin-top: 10px;  
+    cursor: pointer; 
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    *{
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;    
+    }
+
+
+    .header {
+        padding-left: 5px;
+    }
+
+    
+    main .homin{
+        height: 950px;
+        padding-right: 50px;
+    }
+
+    .homin h1{
+        font-size: 35px;
+        padding-right: 80px;
+        
+    }
+
+    .homin #prime {
+        font-size: 15px;
+        margin-left: 55px;
+    }
+
+
+    .homin #btn1 {
+        width: 140px;
+        height: 20px; 
+    }
+
+    
+    .homin #btn1 a {
+        font-size: 15px;
+    }
+
+    
+    .homin #banner1 {
+        width: 300px;
+        position: relative;
+        top: 10px;
+        left: 35px;
+    }
+
+    
+     .midpage {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+     }
+
+     .midpage img {
+        height: 200px;
+        padding-top: 15px;
+     }
+
+     .midpage article button {
+        width: 130px;
+        height: 25px; 
+    }
+
+    
+    .midpage article button a {
+        font-size: 15px;
+    }
+
+    .about h3 {
+        font-size: 35px;
+        align-items: flex-start;
+        padding-left: 60px;
+
+    }
+
+    .m-icons {
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+    }
+
+    .m-icons img {
+        float: none;
+        width: 70px;
+        height: 70px;
+    }
+
+    .m-icons div {
+        width: 200px;
+        height: 300px;
+        line-height: 12px;
+        font-size: 5px;
+        align-items: center;
+        margin-left: -120px;
+    }
+
+    .btmtittle h3 {
+        font-size: 35px;
+        align-items: flex-start;
+        padding-left: 40px;
+
+    }
+
+    .btmpage {
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+        align-items: flex-start;
+        background: #F7F7F7;
+        width: 100%;
+        padding: 3px 5px 0px 40px;
+    }
+
+    .btmpage h5 {
+        font-size: 25px;
+    }
+
+    .btmpage p {
+        margin-bottom: 20px;
+    }
+
+    .btmpage button {
+        width: 140px;
+        height: 30px;
+        margin-left: -320px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .btmpage button a {
+        font-size: 15px;
+    }
+
+
+    .footer button {
+        width: 140px;
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+
+}
+   
+
+
+
+
+@media (max-width: 770px) {
+
+    .homin{
+        height: 700px;
+    }
+    
+    .homin h1{
+        font-size: 40px;
+        padding-right: 80px;
+    }
+
+    .homin #prime {
+        font-size: 20px;
+        align-items: flex-start;
+        }
+
+    .homin #btn1 {
+        width: 200px;
+        height: 30px; 
+    }
+
+    .homin #btn1 a {
+        font-size: 20px;
+    }
+
+    .homin #banner1 {
+        width: 270px;
+        position: relative;
+        left: 430px;
+        bottom: 300px;
+     }
+
+     .midpage{
+        padding-left: 40px;
+        padding-right: 20px;
+     }
+
+     .midpage img {
+        height: 200px;
+     }
+
+     .midpage article h3 {
+        font-size: 25px;
+     }
+
+     .midpage article span {
+        font-size: 13px;
+        text-align:start;
+     }
+
+     .midpage article button {
+        width: 130px;
+        height: 25px; 
+    }
+
+    
+    .midpage article button a {
+        font-size: 15px;
+    }
+
+    .m-icons{
+        height: 650px;
+        align-items: center;
+    }
+
+    .m-icons img {
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    .m-icons div{
+        width: 300px;
+        height: 350px;
+        line-height: 17px;
+        font-size: 20px;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    .btmpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F7F7F7;
+        width: 100%;
+        padding: 3px 5px 0px 40px;
+    }
+
+    .btmpage h5 {
+        font-size: 25px;
+    }
+
+    .btmpage p{
+        margin-bottom: 20px;
+    }
+
+
+    .btmpage button{
+        display: flex;
+        position: relative;
+        left: 2px;
+        width: 170px;
+        height: 35px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    
+    }
+
+    .btmpage button a {
+        font-size: 20px;
+
+    }
+
+
+    .footer button{
+        width: 160px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+
+}
+
+
+    
+    
